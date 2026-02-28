@@ -36,6 +36,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'content',
           sidebarPath: './sidebars.ts',
         },
         theme: {
