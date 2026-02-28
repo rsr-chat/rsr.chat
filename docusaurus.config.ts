@@ -13,7 +13,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://docs.rsrvc.org',
+  url: 'https://docs.rsr.chat',
   baseUrl: '/',
 
   // GitHub pages deployment config.
