@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'rsr', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'rsr-chat', // Usually your GitHub org/user name.
+  projectName: 'rsr.chat', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -78,8 +78,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'TODO',
+              to: 'https://docs.rsr.chat',
             },
           ],
         },
@@ -103,10 +103,6 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
