@@ -123,13 +123,6 @@ S: :server 353 alice = #engineering/general :alice bob
 S: :server 366 alice #engineering/general :End of /NAMES list
 ```
 
-### Example: non-negotiating client attempts to create a new hierarchical channel
-
-```
-C: JOIN #newcategory/newchannel   (capability not negotiated, channel does not exist)
-S: :server 476 alice #newcategory/newchannel :Bad channel mask
-```
-
 ## Server Behaviour
 
 Servers MUST enforce the CHANLEVELS depth limit at channel creation and join time. Attempts
